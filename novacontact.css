@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+#nav{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    position: static;
+}
+#nav img{
+    height: 135px;
+    width: 200px;
+    display: block;
+    justify-content: center;
+    padding: 5px;
+
+}
+#navlinks{
+    text-align: right;
+    flex: 1;
+    
+}
+#navlinks ul li{
+    display: inline-flex;
+    list-style: none;
+    text-align: right;
+    justify-content: space-evenly;
+    
+}
+#navlinks ul li a{
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+#navlinks ul li a:hover{
+    border-radius: 20px;
+    border-color: black;
+    color: azure;
+    background-color: azure;
+    color: black;
+    transition: 0.3;
+
+}
+
+#footer{
+    margin-top: 0px;
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    
+}
+#footer img{
+    width: 100%;
+    height: 375px;
+    border-radius: none;
+    bottom: 0px;
+    position: absolute;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+#links{
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+#links ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+#links img{
+    height: 50px;
+    width: 50px;
+    justify-content: space-evenly;
+    margin-top: 30px; 
+    margin-left: -20px;
+
+}
+
+#links h3{
+    position: absolute;
+    display: block;
+    align-items: center;
+    justify-content:space-evenly;
+    color: white;
+    padding: 30px;
+    margin-left: 600px;
+    font-size: 40px;
+    margin-top: 700px;
+} 
+#links #email{
+    position: absolute;
+    display: block;
+    color: white;
+    padding: 30px;
+    margin-left: 500px;
+    font-size: 40px;
+    margin-top: 750px;
+    align-items: center;
+}
+#con img{
+    width: 100%;
+    margin-bottom: 0px;
+    position: absolute;
+    margin-bottom: 10px;
+}
+#form{
+    font-size: 30px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left: 1300px;
+    font-weight: 600;
+    color: #525FE1;
+
+}
+#form button{
+    background-color: black;
+    color: white;
+}
+#form button:hover{
+    background-color: green;
+    color: white;
+}
